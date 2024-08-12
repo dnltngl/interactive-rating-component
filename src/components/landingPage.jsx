@@ -43,7 +43,7 @@ function LandingPage() {
                         onClick={handleSubmit}
                         className={`mt-6 flex justify-center place-items-center py-2.5 text-center min-w-full rounded-3xl font-normal text-sm tracking-widest transition-colors duration-300 ${
                             isSubmitted ? 'bg-white text-black' : 'bg-primary-Orange text-black'
-                        }`}
+                        } hover:bg-white hover:text-black focus:outline-none`}
                     >
                         SUBMIT
                     </button>
